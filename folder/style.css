@@ -1,0 +1,92 @@
+.container {
+    width: 120%;
+    margin-bottom: 5px;
+}
+.container_left {
+    float: left;
+    width: 23%;
+    height: 100%;
+    margin: 15px 10px 20px 50px;
+    border-style: 1px groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 25px;
+}
+
+.container_right{
+    float: left;
+    width: 72%;
+    height: 100%;
+    margin-bottom: 3px;
+}
+
+.subcontainer1 {
+    width: 68%;
+    height: 40%;
+    margin: 15px 0px 20px 10px;
+    border-style: 1px groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subcontainer2 {
+    width: 68%;
+    height: auto;
+    margin: 15px 0px 20px 10px;
+    padding-bottom: 3px;
+    border-style: 1 px groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 3px;
+}
+
+hr{
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 0.5px solid #eee;
+}
+
+p{
+    margin: 17px 32px;
+}
+
+.photo,.education{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+}
+
+.photo{
+    position: relative;
+}
+
+.skills, .experience{
+        font-family: Arial, Helvetica, sans-serif;
+        color: dimgray;
+}
+
+.name {
+    position: absolute;
+    top: 25px;
+    right: 115px;
+    color: #000;
+    font-size: x-large;
+  }
+
+h2 {
+    color : dimgray;
+    padding: 15px;
+    margin: 17px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    margin-left: 30px;;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+}
+
+.education p, .experience p{
+    margin-left: 35px;
+}
+footer {
+    margin-top: 10px;
+    background-color: mediumaquamarine;
+    height: 17%;   
+}
